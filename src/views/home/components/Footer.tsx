@@ -10,7 +10,7 @@ const Footer = (props: Props) => {
       display={"grid"}
       alignContent={"center"}
       bg={"#1f1f1f"}
-      height={100}
+      height={[200, 100, 100]}
       mt={100}
       sx={{
         border: "1px solid #313135",

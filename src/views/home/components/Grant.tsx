@@ -10,8 +10,8 @@ const Grant = (props: Props) => {
       <Flex
         justifyContent={"center"}
         alignItems={["normal", "center", "center"]}
-        p={2}
-        py={3}
+        pt={4}
+        pb={4}
         flexDirection={["column", "row", "row"]}
         height={["auto", 300, 300]}
         sx={{
