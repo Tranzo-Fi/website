@@ -1,10 +1,19 @@
 import React from "react";
-import { Box, Flex, Image, Text } from "rebass/styled-components";
+import { Box, Flex, Image, Text, Link } from "rebass/styled-components";
 import { LogoFlash } from "../../../app/assets";
 
 type Props = {};
 
 const Footer = (props: Props) => {
+
+  const openGithub = () => {
+    window.open("https://github.com/Tranzo-Fi");
+  };
+
+  const openTwitter = () => {
+    window.open("https://twitter.com/TranzoFi");
+  };
+
   return (
     <Box
       display={"grid"}
@@ -41,15 +50,15 @@ const Footer = (props: Props) => {
           </Text>
         </Flex>
         <Flex display={"grid"} alignContent={"center"}>
-          <Text color={"#636364"} mr={2}>
+          <Text color={"#636364"} mr={2} onClick={openGithub} style={{cursor: "pointer"}}>
             github.
           </Text>
-          <Text color={"#636364"} mr={2}>
+          <Text color={"#636364"} mr={2} onClick={openTwitter} style={{cursor: "pointer"}}>
             twitter.
           </Text>
-          <Text color={"#636364"} mr={2}>
+          {/* <Text color={"#636364"} mr={2}>
             medium.
-          </Text>
+          </Text> */}
         </Flex>
       </Flex>
     </Box>

@@ -13,7 +13,7 @@ const Banner = (props: Props) => {
           Tranzo Protocol
         </Text>
         <Text letterSpacing={1} fontSize={[16, 18, 20]} color={"dark"} width={["100%", "40%", "40%"]}>
-          Transfer your aave positions from one wallet to another seamlessly{" "}
+          Transfer your Aave positions from one address to another seamlessly.{" "}
         </Text>
       </Box>
     </Flex>

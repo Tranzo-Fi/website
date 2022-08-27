@@ -4,6 +4,20 @@ import { LogoFlash } from "../../../app/assets";
 
 type Props = {};
 
+const howitworksHeader = [
+  'Approve aTokens',
+  'Approve Delegation',
+  'Review Positions',
+  'Tranzo'
+]
+
+const howitworksText = [
+  'Approve aTokens representing your collateral from the address you want to transfer positions from.', 
+  'Connect your new address you want to transfer your positions to and Approve Delegation on all your Debt Tokens.', 
+  'Review your position on your new address, including your suppies, borrows and Flash Loan Fees.', 
+  'Hit Transfer Positions from the address you want to transfer your positions from and Tranzo contract will take a Flash Loan to migrate all your positions.'
+];
+
 const Works = (props: Props) => {
   return (
     <Box width={"80%"} margin={"auto"} mt={20}>
@@ -115,11 +129,10 @@ const Works = (props: Props) => {
               </Text>
             </Flex>
             <Text fontSize={20} fontWeight={"bold"}>
-              Action
+              {howitworksHeader[i]}
             </Text>
             <Text fontSize={14} color={"#838383"} mt={2}>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, quas atque eius officiis inventore nesciunt culpa,
-              a eos aliquid
+              {howitworksText[i]}
             </Text>
           </Box>
         ))}
