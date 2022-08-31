@@ -26,7 +26,7 @@ const Grant = (props: Props) => {
           <Text fontWeight={"bold"} fontSize={20}>
             Aave Grants DAO
           </Text>
-          <Text color={"#838383"} paddingTop={3}>
+          <Text width={"80%"} height={"auto"} color={"#838383"} fontSize={16} paddingTop={3}>
             Born out of ETH-India Hackathon in May 2022, Tranzo is backed by Aave Grants DAO{" "}
           </Text>
           {/* <Text mt={10} fontSize={12}>

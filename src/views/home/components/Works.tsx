@@ -4,18 +4,13 @@ import { LogoFlash } from "../../../app/assets";
 
 type Props = {};
 
-const howitworksHeader = [
-  'Approve aTokens',
-  'Approve Delegation',
-  'Review Positions',
-  'Tranzo'
-]
+const howitworksHeader = ["Approve aTokens", "Approve Delegation", "Review Positions", "Tranzo"];
 
 const howitworksText = [
-  'Approve aTokens representing your collateral from the address you want to transfer positions from.', 
-  'Connect your new address you want to transfer your positions to and Approve Delegation on all your Debt Tokens.', 
-  'Review your position on your new address, including your suppies, borrows and Flash Loan Fees.', 
-  'Hit Transfer Positions from the address you want to transfer your positions from and Tranzo contract will take a Flash Loan to migrate all your positions.'
+  "Approve aTokens representing your collateral from the address you want to transfer positions from.",
+  "Connect your new address you want to transfer your positions to and Approve Delegation on all your Debt Tokens.",
+  "Review your position on your new address, including your suppies, borrows and Flash Loan Fees.",
+  "Hit Transfer Positions from the address you want to transfer your positions from and Tranzo contract will take a Flash Loan to migrate all your positions.",
 ];
 
 const Works = (props: Props) => {
@@ -111,7 +106,7 @@ const Works = (props: Props) => {
             m={[0, 10, 10]}
             mb={[20, 10, 10]}
             bg={"#222224"}
-            height={[300, 400, 400]}
+            height={["auto", 400, 400]}
             width={["100%", 400, 400]}
             p={4}
             sx={{

@@ -7,7 +7,7 @@ type Props = {};
 const Banner = (props: Props) => {
   return (
     <Flex p={30} bg={"flash"} height={["40vh", "50vh", "70vh"]} flexDirection={"column"} justifyContent={"flex-end"}>
-      <Box height={[200, 300, 400]} mb={25}>
+      <Box height={[250, 300, 400]} mb={25}>
         <Image width={[100, 160, 200]} height={[100, 160, 200]} src={Logo} />
         <Text fontSize={30} letterSpacing={3} fontWeight={"bold"} color={"dark"}>
           Tranzo Protocol
