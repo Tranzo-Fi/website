@@ -5,7 +5,7 @@ import { theme } from "./app/utils/theme";
 import GlobalStyle from "./utils/globalStyle";
 import ReactGA from "react-ga";
 
-ReactGA.initialize("G-7DK957Q1KS");
+ReactGA.initialize("UA-239748385-1");
 ReactGA.pageview(window.location.pathname + window.location.search);
 function App() {
   return (
